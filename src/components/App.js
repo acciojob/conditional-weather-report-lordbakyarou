@@ -7,7 +7,8 @@ const App = () => {
     return (
       <div style={{ color: "red" }} id="main">
         <p>Temperature: {data.temperature}</p>
-
+        <p></p>
+        <div></div>
         <span>Conditions: {data.conditions}</span>
       </div>
     );
@@ -15,7 +16,8 @@ const App = () => {
     return (
       <div style={{ color: "blue" }} id="main">
         <p>Temperature: {data.temperature}</p>
-
+        <p></p>
+        <div></div>
         <span>Conditions: {data.conditions}</span>
       </div>
     );
