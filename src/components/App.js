@@ -9,6 +9,7 @@ const App = () => {
         <p>Temperature: {data.temperature}</p>
         <p></p>
         <div></div>
+        <span></span>
       </div>
     );
   } else {
@@ -17,6 +18,7 @@ const App = () => {
         <p>Temperature: {data.temperature}</p>
         <p></p>
         <div></div>
+        <span></span>
       </div>
     );
   }
