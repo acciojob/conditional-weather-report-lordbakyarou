@@ -5,14 +5,18 @@ import data from "../data/data";
 const App = () => {
   if (data.temperature > 20) {
     return (
-      <div style={{ color: "red" }}>
+      <div style={{ color: "red" }} id="main">
         <p>Temperature: {data.temperature}</p>
+        <p></p>
+        <div></div>
       </div>
     );
   } else {
     return (
-      <div style={{ color: "blue" }}>
+      <div style={{ color: "blue" }} id="main">
         <p>Temperature: {data.temperature}</p>
+        <p></p>
+        <div></div>
       </div>
     );
   }
