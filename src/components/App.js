@@ -7,12 +7,14 @@ const App = () => {
     <div>
       {(data.temperature > 20 && (
         <p style={{ color: "red" }}>
-          Current Temp : {data.temperature}, Current Conditions:{" "}
+          Current Temp : {data.temperature}, Current Conditions:
+          {data.conditions}
           {data.conditions}
         </p>
       )) || (
         <p style={{ color: "blue" }}>
-          Current Temp : {data.temperature}, Current Conditions:{" "}
+          Current Temp : {data.temperature}, Current Conditions:
+          {data.conditions}
           {data.conditions}
         </p>
       )}
