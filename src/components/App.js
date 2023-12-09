@@ -7,18 +7,18 @@ const App = () => {
     return (
       <div style={{ color: "red" }} id="main">
         <p>Temperature: {data.temperature}</p>
+        <span>Conditions: {data.conditions}</span>
         <p></p>
         <div></div>
-        <span>Conditions: {data.conditions}</span>
       </div>
     );
   } else {
     return (
       <div style={{ color: "blue" }} id="main">
         <p>Temperature: {data.temperature}</p>
+        <span>Conditions: {data.conditions}</span>
         <p></p>
         <div></div>
-        <span>Conditions: {data.conditions}</span>
       </div>
     );
   }
