@@ -6,9 +6,11 @@ const App = () => {
   if (data.temperature > 20) {
     return (
       <div style={{ color: "red" }} id="main">
-        <p>Temperature: {data.temperature}</p>
+        <p>
+          Temperature: {data.temperature} Conditions: {data.conditions}
+        </p>
         <span>Conditions: {data.conditions}</span>
-        <p></p>
+        <p>Conditions: {data.conditions}</p>
         <div></div>
       </div>
     );
