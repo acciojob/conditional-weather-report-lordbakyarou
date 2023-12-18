@@ -15,7 +15,9 @@ const App = () => {
   } else {
     return (
       <div style={{ color: "blue" }} id="main">
-        <p>Temperature: {data.temperature}</p>
+        <p>
+          Temperature: {data.temperature} Conditions: {data.conditions}
+        </p>
         <span>Conditions: {data.conditions}</span>
         <p></p>
         <div></div>
